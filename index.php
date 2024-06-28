@@ -2,7 +2,7 @@
 include 'inc/header.php';
 
 $danhSachBaiViet = $bai_viet->getDanhSachBaiVietNew();
-$danhSachBaiVietTheoKhoa = $bai_viet->getAllDanhSachBaiVietNew('benh-xa-hoi');
+$danhSachBaiVietTheoKhoa = $bai_viet->getAllDanhSachBaiVietNew('da-lieu');
 $tin_tuc_all_news = $tin_tuc->getAllLimitTinTuc();
 ?>
 
