@@ -45,12 +45,12 @@
         width: 83%;
         min-height: 300px;
         border-radius: 15px;
-        border: 2px solid #166B85;
+        border: 2px solid #01A64F;
         padding: 10px 10px;
         margin: auto;
     }
     .form-chat-mobile-title{
-        color: #166B85;
+        color: #01A64F;
         font-size: 18px;
         font-weight: 700;
         text-align: center;
@@ -71,19 +71,19 @@
         padding: 5px 10px;
         font-weight: 600;
         color: #999;
-        border: 2px solid #166B85;
+        border: 2px solid #01A64F;
         font-style: italic;
     }
 
     .form-chat-mobile-input input:focus {
-        border: 3px solid #166B85;
-        border-color: #166B85;
+        border: 3px solid #01A64F;
+        border-color: #01A64F;
     }
     .form-chat-mobile-input-button{
         width: 60%;
         border-radius: 8px;
-        background-color: #166B85;
-        background-image: linear-gradient(to right, #166B85, #50e2e7);
+        background-color: #01A64F;
+        background-image: linear-gradient(to right, #01A64F, #6DEEAA);
         color: white;
         font-size: 20px;
         font-weight: 700;
@@ -299,8 +299,8 @@
         width: 100%;
     }
     .footer_mobile_call_left_body{
-        background-color: #166B85;
-        background-image: linear-gradient(to right, #166B85, #166B85);
+        background-color: #01A64F;
+        background-image: linear-gradient(to right, #01A64F, #01A64F);
         width: 100%;
         height: 70px;
         text-align: center;
@@ -372,8 +372,8 @@
 
     }
     .footer_mobile_call_right_body{
-        background-color: #166B85;
-        background-image: linear-gradient(to right, #166B85, #166B85);
+        background-color: #01A64F;
+        background-image: linear-gradient(to right, #01A64F, #01A64F);
         width: 100%;
         height: 70px;
         text-align: center;
@@ -452,7 +452,7 @@
     position: relative;
     width: 100%;
     height: 50px;
-    background-image: linear-gradient(to right, #166B85, #166B85);
+    background-image: linear-gradient(to right, #01A64F, #01A64F);
    border-bottom: 1px solid white;
     
 }
@@ -640,7 +640,7 @@
     height: 100vh;
     width: 280px;
     z-index: 1000;
-    background-color:#166B85;
+    background-color:#059549;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgb(0,0,0,0.1);
     color: white;
@@ -725,7 +725,7 @@
     width: 100%;
     font-size: 16px;
     font-weight: 700;
-    color: #166B85;
+    color: #01A64F;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -745,7 +745,7 @@
 .sidebar_mobile_li_ul_li_benh>li{
     width: 100%;
     padding: 3px 10px;
-    border-bottom: 1px solid #166B85;
+    border-bottom: 1px solid #01A64F;
 }
 
 .sidebar_mobile_li_ul_li_benh>li:hover{
@@ -759,7 +759,7 @@
     width: 100%;
     font-size: 14px;
     font-weight: 600;
-    color: #166B85;
+    color: #01A64F;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -773,14 +773,14 @@
     border-top: 1px solid #166B85;
     font-size: 16px ;
     font-weight: 700;
-    color: #166B85;
+    color: #01A64F;
     text-transform: uppercase;
     padding: 3px 0px 3px 10px;
 }
 
 .health_mobile_benh{
     width: 100%;
-    background-color: #6ACFF5;
+    background-color: #01A64F;
     font-size: 21px;
     color: white;
     font-weight: 700;
@@ -797,13 +797,13 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-    border-bottom: 2px dashed #01969A;
+    border-bottom: 2px dashed #01A64F;
     padding-bottom: 10px;
 }
 
 .health_mobile_body_card_left{
     width: 20%;
-    border: 1px solid #01969A;
+    border: 1px solid #01A64F;
     border-radius: 8px;
     height: 66px;
 }
@@ -816,7 +816,7 @@
     width: 77%;
 }
 .health_mobile_body_card_right_title{
-    color: rgba(0, 96, 167, 1);
+    color: #01A64F;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -843,8 +843,8 @@
     font-weight: 700;
     text-transform: uppercase;
     /* line-height: 17px; */
-    background-color: #166B85;
-    background-image: linear-gradient(to right, #166B85, #50e2e7);
+    background-color: #01A64F;
+    background-image: linear-gradient(to right, #01A64F, #6DEEAA);
     width: 50%;
     color: white;
     border: none;
@@ -861,7 +861,7 @@
 }
 
 .health_mobile_body_card_right_footer_right{
-    border: 1px solid #166B85 !important;
+    border: 1px solid #01A64F !important;
     cursor: pointer;
     font-size: 11px;
     font-weight: 700;
@@ -869,7 +869,7 @@
     /* line-height: 17px; */
     background-color: white;
     width: 50%;
-    color: #166B85;
+    color: #01A64F;
     border: none;
     border-radius: 25px;
     justify-content: center;

@@ -53,7 +53,7 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
         width: 200px;
 
         border: 2px solid transparent;
-        border-color: #067579;
+        border-color: #01A64F;
         border-image-slice: 1;
         border-radius: 20px;
     }
@@ -176,12 +176,12 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
 
     .health_row_col_footer_pagi_number:focus,
     .health_row_col_footer_pagi_number:active {
-        background-color: #1c6f71;
+        background-color: #01A64F;
         transition: all 0.2s;
     }
 
     .health_row_col_footer_pagi_number_active {
-        background-color: #1c6f71;
+        background-color: #01A64F;
     }
 
     .health_row_col_footer_share {
@@ -189,7 +189,7 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
     }
 
     .health_row_col_footer_share_text {
-        color: #01969A;
+        color: #01A64F;
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;
@@ -206,9 +206,9 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
     }
 
     .active_menu_tab {
-        color: #008DBA;
+        color: #128648;
         transition: 0.5s;
-        background-color: #23dee448;
+        background-color: #5be49b;
     }
 
     .chinh-sua {
@@ -231,7 +231,7 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
         font-size: 23px;
         font-weight: 700;
         text-transform: uppercase;
-        background-color: #008DBA;
+        background-color: #01A64F;
         padding: 10px 15px;
     }
     .view {

@@ -5,7 +5,7 @@
         font-size: 23px;
         font-weight: 700;
         text-transform: uppercase;
-        background-color: #008DBA;
+        background-color: #01A64F;
         padding: 10px 15px;
     }
 

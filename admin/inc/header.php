@@ -11,7 +11,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'logout') {
 }
 
 $local = 'http://localhost/dalieu.phongkhamdakhoanhatviet.vn';
-// $local = 'https://dalieu.phongkhamdakhoanhatviet.vn/';
+// $local = 'https://dalieu.phongkhamdakhoanhatviet.vn';
 ?>
 
 <?php

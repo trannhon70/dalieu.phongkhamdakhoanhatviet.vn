@@ -38,7 +38,7 @@
             <img style="width: 80%;" src="<?php echo $local ?>/images/logo/logo2.webp" alt="...">
 
             <div class="f_size_30 f_weight_700 color_success mt-3">
-                <span style="border-bottom: 3px solid; border-color: #01969A #00D8D8;">GIỜ LÀM VIỆC</span>
+                <span style="border-bottom: 3px solid; border-color: #01A64F;">GIỜ LÀM VIỆC</span>
             </div>
             <div class="  ">
                 <div class="color_success f_size_30 f_weight_700">8:00 - 20:00
@@ -47,7 +47,7 @@
                     kể cả ngày lễ</div>
             </div>
             <div class="f_size_30 f_weight_700 color_success w_100 mt-3">
-                <span clas style="border-bottom: 3px solid; border-color: #01969A #00D8D8;">THÔNG TIN LIÊN HỆ</span>
+                <span clas style="border-bottom: 3px solid; border-color: #01A64F;">THÔNG TIN LIÊN HỆ</span>
             </div>
             <div class="flex mt-2 w_100">
                 <div class="w_10 flex item_center justify_center ">
@@ -140,12 +140,12 @@
 </section>
  <div class="footer_list_icon">
                 <div>
-                    <a class="footer_icon_happy" href="https://dalieu.phongkhamdakhoanhatviet.vn/">
+                    <a class="footer_icon_happy" href="https://dalieu.phongkhamdakhoanhatviet.vn">
                         <img width="50px" src="<?php echo $local ?>/images/logo_mobile/icon_happy.gif" alt="">
                     </a>
                 </div>
                 <div class="mt-4">
-                    <a class="footer_icon_zalo" href="https://dalieu.phongkhamdakhoanhatviet.vn/">
+                    <a class="footer_icon_zalo" href="https://dalieu.phongkhamdakhoanhatviet.vn">
                         <img width="50px" src="<?php echo $local ?>/images/logo_mobile/icon_zalo.png" alt="">
                         <div class="ping_zalo" >
 
@@ -153,7 +153,7 @@
                     </a>
                 </div>
                 <div class="mt-4" > 
-                    <a class="footer_icon_mess " href="https://dalieu.phongkhamdakhoanhatviet.vn/">
+                    <a class="footer_icon_mess " href="https://dalieu.phongkhamdakhoanhatviet.vn">
                         <img width="45px" style="margin-left: 3px;" src="<?php echo $local ?>/images/logo_mobile/icon_message.webp" alt="">
                         <div class="ping" >
 
