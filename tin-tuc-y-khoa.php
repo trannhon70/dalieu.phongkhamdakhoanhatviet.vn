@@ -370,7 +370,7 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
 <!-- mobile tin tuc -->
 <section id="health_tintuc_mobile">
     <div style="padding: 10px 10px;">
-        <span style="font-size: 16px; font-weight: 700; color: #166B85; border-bottom: 2px solid #166B85; text-transform: uppercase; ">tin tức</span>
+        <span style="font-size: 16px; font-weight: 700; color: #01A64F; border-bottom: 2px solid #01A64F; text-transform: uppercase; ">tin tức</span>
         <?php if ($getAllLimit) {
             while ($result = $getAllLimit->fetch_assoc()) {
                 $slug = $result['slug'];
