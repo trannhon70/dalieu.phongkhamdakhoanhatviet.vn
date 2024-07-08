@@ -252,9 +252,9 @@ if (isset($path_parts[2])) {
                 }
             } elseif ($sessionkhoa == 'da-lieu') {
                 foreach ($MenuDaLieu as $item) {
-                    $activeClass = $item['id'] === $sessionBenh ? 'active_menu_tab' : '';
-                    echo '<a onclick="saveBenhToSession(\'' . $item['id'] . '\'); return true;" href="' . $local . $item['link'] . '">';
-                    echo '<div class="health_row_col_div ' . $activeClass . '">' . $item['title'] . '</div>';
+                    $activeClass = $item['slug'] === $sessionBenh ? 'active_menu_tab' : '';
+                    echo '<a onclick="saveBenhToSession(\'' . $item['slug'] . '\'); return true;" href="' . $local . $item['link'] . '">';
+                    echo '<div class="health_row_col_div ' . $activeClass . '">' . $item['name'] . '</div>';
                     echo '</a>';
                 }
             } elseif ($sessionkhoa == 'benh-xa-hoi') {

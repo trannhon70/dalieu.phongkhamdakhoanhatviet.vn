@@ -76,9 +76,9 @@
 
                             <ul class="sidebar_mobile_li_ul_li_benh">
                                 <?php foreach ($MenuDaLieu as $value) :
-                                    $activeClass = ($value['id'] === $sessionBenh) ? 'active_menu_tab' : ''; ?>
+                                    $activeClass = ($value['slug'] === $sessionBenh) ? 'active_menu_tab' : ''; ?>
                                     <li class="<?php echo $activeClass; ?>" onclick="saveLinkToSession('<?php echo $value['session']; ?>'); return true;">
-                                        <a href="<?php echo $local . $value['link'] ?>"><?php echo $value['title'] ?></a>
+                                        <a href="<?php echo $local . $value['link'] ?>"><?php echo $value['name'] ?></a>
                                     </li>
                                 <?php endforeach; ?>
 

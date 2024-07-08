@@ -29,6 +29,18 @@ include_once($filepath . '/../helpers/format.php');
         return $result;
         
       }
+      function getDanhSachBenhByIdKhoa($idKhoa){
+        $query = "SELECT * FROM `admin_benh` WHERE id_khoa = '$idKhoa' AND hidden = '0' ";
+        $result = $this->db->select($query);
+        
+        $data = [];
+        if ($result) {
+            while ($row = $result->fetch_assoc()) {
+                $data[] = $row;
+            }
+        }
+        return $data;
+      }
       
   }
   

@@ -14,6 +14,7 @@ include_once 'classes/brand.php';
 include_once 'classes/user.php';
 include_once 'classes/bai_viet.php';
 include_once 'classes/tin_tuc.php';
+include_once 'classes/benh.php';
 
 spl_autoload_register(function ($className) {
     include_once "classes/" . $className . ".php";
@@ -25,6 +26,7 @@ $brand = new brand();
 $user = new users();
 $bai_viet = new post();
 $tin_tuc = new news();
+$benhs = new Benh();
 
 ?>
 <?php
@@ -176,18 +178,8 @@ $MenuNamkhoa = array(
 
 );
 
-$MenuDaLieu = array(
-    array('id' => 'nam-da', 'title' => 'Nấm da', 'link' => '/da-lieu/nam-da.html', 'session' => '/da-lieu/nam-da'),
-    array('id' => 'viem-da', 'title' => 'viêm da', 'link' => '/da-lieu/viem-da.html', 'session' => '/da-lieu/viem-da'),
-    array('id' => 'vay-nen', 'title' => 'vảy nến', 'link' => '/da-lieu/vay-nen.html', 'session' => '/da-lieu/vay-nen'),
-    array('id' => 'nam-mong', 'title' => 'nấm móng', 'link' => '/da-lieu/nam-mong.html', 'session' => '/da-lieu/nam-mong'),
-    array('id' => 'mun-nhot', 'title' => 'mụn nhọt', 'link' => '/da-lieu/mun-nhot.html', 'session' => '/da-lieu/mun-nhot'),
-    array('id' => 'mun-coc', 'title' => 'mụn cóc', 'link' => '/da-lieu/mun-coc.html', 'session' => '/da-lieu/mun-coc'),
-    array('id' => 'benh-zona', 'title' => 'bệnh zona', 'link' => '/da-lieu/benh-zona.html', 'session' => '/da-lieu/benh-zona'),
-    array('id' => 'benh-cham', 'title' => 'bệnh chàm', 'link' => '/da-lieu/benh-cham.html', 'session' => '/da-lieu/benh-cham'),
-    array('id' => 'san-ngua', 'title' => 'sẩn ngứa', 'link' => '/da-lieu/san-ngua.html', 'session' => '/da-lieu/san-ngua'),
-    array('id' => 'benh-ghe', 'title' => 'bệnh ghẻ', 'link' => '/da-lieu/benh-ghe.html', 'session' => '/da-lieu/benh-ghe'),
-);
+$MenuDaLieu = $benhs->getDanhSachBenhByIdKhoa(2);
+
 
 $MenuBXH = array(
     array('id' => 'sui-mau-ga', 'title' => 'sùi màu gà', 'link' => '/benh-xa-hoi/sui-mau-ga.html', 'session' => '/benh-xa-hoi/sui-mau-ga'),
@@ -306,8 +298,8 @@ $sessionkhoa = Session::get('khoa');
                             </ul> -->
                         <ul class="dropdown_menu_body_ul">
                                 <!-- <h5 class="dropdown_menu_body_ul_li_h5">da liễu</h5> -->
-                                <?php foreach ($MenuDaLieu as $value) : $activeClass = ($value['id'] === $sessionBenh) ? 'active_menu_tab' : ''; ?>
-                                    <li onclick="saveLinkToSession('<?php echo $value['session']; ?>'); return true;" class="dropdown_menu_body_ul_li <?php echo $activeClass; ?>"><a class="dropdown_menu_body_ul_li_a" href="<?php echo $local . $value['link'] ?>"><?php echo $value['title'] ?> </a></li>
+                                <?php foreach ($MenuDaLieu as $value) : $activeClass = ($value['slug'] === $sessionBenh) ? 'active_menu_tab' : ''; ?>
+                                    <li onclick="saveLinkToSession('<?php echo $value['session']; ?>'); return true;" class="dropdown_menu_body_ul_li <?php echo $activeClass; ?>"><a class="dropdown_menu_body_ul_li_a" href="<?php echo $local . $value['link'] ?>"><?php echo $value['name'] ?> </a></li>
                                 <?php endforeach; ?>
                             </ul>
                             <!-- <ul class="dropdown_menu_body_ul">

@@ -40,8 +40,8 @@ $total_pages = ceil($total_articles / $limit);
             }
         } elseif ($sessionkhoa === 'da-lieu') {
             foreach ($MenuDaLieu as $item) {
-                if ($item['id'] === $sessionBenh) {
-                    echo $item['title'];
+                if ($item['slug'] === $sessionBenh) {
+                    echo $item['name'];
                     break;
                 }
             }
