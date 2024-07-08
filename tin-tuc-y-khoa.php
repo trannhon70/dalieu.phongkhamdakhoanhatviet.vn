@@ -303,12 +303,12 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
             </a>
         </div>
         <div class="health_row_col col-sm-8">
-
-            <?php if (isset($getByIdTT)) { ?>
-                <?php if (Session::get('role') === '1' || Session::get('role') === '2') {
+        <?php if (Session::get('role') === '1' || Session::get('role') === '2') {
                 ?>
-                    <a class="chinh-sua" href="<?php echo $local ?>/admin/tin-tuc-edit.php?edit=<?php echo $getByIdTT['id'] ?>"><i style="font-size: 19px;" class='bx bxs-pencil'></i> chỉnh sửa</a>
+                    <a class="chinh-sua" href="<?php echo $local ?>/admin/tin-tuc-edit.php?edit=<?php echo isset($getByIdTT) ? $getByIdTT['id'] : $getOneLimit['id']?>"><i style="font-size: 19px;" class='bx bxs-pencil'></i> chỉnh sửa</a>
                 <?php } ?>
+            <?php if (isset($getByIdTT)) { ?>
+                
                 <h1 class="health_row_col_title_tin_tuc">
                     <span><?php echo $getByIdTT['tieu_de'] ?></span>
                 </h1>
@@ -319,10 +319,6 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
 
                 </div>
             <?php } else { ?>
-                <?php if (Session::get('role') === '1' || Session::get('role') === '2') {
-                ?>
-                    <a class="chinh-sua" href="<?php echo $local ?>/admin/tin-tuc-edit.php?edit=<?php echo $getOneLimit['id'] ?>"><i style="font-size: 19px;" class='bx bxs-pencil'></i> chỉnh sửa</a>
-                <?php } ?>
 
                 <h1 class="health_row_col_title_tin_tuc">
                     <span><?php echo $getOneLimit['tieu_de'] ?></span>
@@ -361,7 +357,7 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
     <?php if (Session::get('role') === '1' || Session::get('role') === '2') {
 
 ?>
-    <a style="margin-left: 10px;" class="chinh-sua" href="<?php echo $local ?>/admin/tin-tuc-edit.php?edit=<?php echo $getByIdTT['id'] ?>"><i style="font-size: 19px;" class='bx bxs-pencil'></i> chỉnh sửa</a>
+    <a style="margin-left: 10px;" class="chinh-sua" href="<?php echo $local ?>/admin/tin-tuc-edit.php?edit=<?php echo isset($getByIdTT) ? $getByIdTT['id'] : $getOneLimit['id']?> ?>"><i style="font-size: 19px;" class='bx bxs-pencil'></i> chỉnh sửa</a>
 <?php } ?>
         <?php if (isset($getByIdTT)) { ?>
             <h1 class="health_row_col_title_tin_tuc">
