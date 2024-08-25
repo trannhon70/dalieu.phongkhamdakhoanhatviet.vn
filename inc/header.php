@@ -105,7 +105,7 @@ $local = '/dalieu.phongkhamdakhoanhatviet.vn';
 
         .dropdown_menu_body {
             border-top: 2px solid #edefef;
-            background-color: #01A64F;
+            background-color: #007156;
             color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 15px;
@@ -121,7 +121,7 @@ $local = '/dalieu.phongkhamdakhoanhatviet.vn';
         }
 
         .dropdown_menu_body_ul_li {
-            border-bottom: 1px solid #6DEEAA;
+            border-bottom: 1px solid #5EFFBA;
             align-items: center;
             padding: 2px 0px;
             width: 49.3%;
@@ -129,7 +129,7 @@ $local = '/dalieu.phongkhamdakhoanhatviet.vn';
         }
 
         .dropdown_menu_body_ul_li:hover {
-            background-color: #398b5f;
+            background-color: #004635;
             transition: 0.5s;
             color: white;
         }
@@ -271,9 +271,9 @@ $sessionkhoa = Session::get('khoa');
                 </div>
             </div>
         </div>
-        <div style="background-color: #01A64F;">
+        <div style="background-color: #007156;">
 
-            <div style="background-color: #01A64F;" class="container header_bottom">
+            <div style="background-color: #007156;" class="container header_bottom">
                 <a href="<?php echo $local ?>/index.html" class="header_bottom_icon">
                     <img height="auto" width="35px" src="<?php echo $local ?>/images/icons/icon_home.webp" alt="...">
                 </a>

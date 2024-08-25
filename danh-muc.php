@@ -47,7 +47,7 @@ if (isset($path_parts[2])) {
         width: 200px;
 
         border: 2px solid transparent;
-        border-color: #01A64F;
+        border-color: #007156;
         border-image-slice: 1;
         border-radius: 20px;
     }
@@ -61,7 +61,7 @@ if (isset($path_parts[2])) {
         font-size: 20px;
         font-weight: 700;
         line-height: 27px;
-        color: #01A64F;
+        color: #007156;
         text-transform: uppercase;
 
         overflow: hidden;
@@ -98,8 +98,8 @@ if (isset($path_parts[2])) {
         font-weight: 700;
         text-transform: uppercase;
         line-height: 53px;
-        background-color: #01A64F;
-        background-image: linear-gradient(to right, #01A64F, #6DEEAA);
+        background-color: #007156;
+        background-image: linear-gradient(to right, #007156, #6DEEAA);
         width: 190px;
         color: white;
         border: none;
@@ -123,8 +123,8 @@ if (isset($path_parts[2])) {
         line-height: 53px;
         background-color: white;
         width: 190px;
-        color: #01A64F;
-        border: 2px solid #01A64F;
+        color: #007156;
+        border: 2px solid #007156;
         border-radius: 30px;
         margin-left: 10%;
         justify-content: center;
@@ -147,7 +147,7 @@ if (isset($path_parts[2])) {
     .health_row_col_footer_pagi_next {
         width: 35px;
         height: 35px;
-        background-color: #01A64F;
+        background-color: #007156;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -165,7 +165,7 @@ if (isset($path_parts[2])) {
     .health_row_col_footer_pagi_prev {
         width: 35px;
         height: 35px;
-        background-color: #01A64F;
+        background-color: #007156;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -195,12 +195,12 @@ if (isset($path_parts[2])) {
 
     .health_row_col_footer_pagi_number:focus,
     .health_row_col_footer_pagi_number:active {
-        background-color: #01A64F;
+        background-color: #007156;
         transition: all 0.2s;
     }
 
     .health_row_col_footer_pagi_number_active {
-        background-color: #01A64F;
+        background-color: #007156;
     }
 
     .health_row_col_footer_share {
@@ -208,7 +208,7 @@ if (isset($path_parts[2])) {
     }
 
     .health_row_col_footer_share_text {
-        color: #01A64F;
+        color: #007156;
         font-size: 24px;
         font-weight: 700;
         line-height: 36px;

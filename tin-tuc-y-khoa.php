@@ -87,8 +87,8 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
         font-weight: 700;
         text-transform: uppercase;
         line-height: 53px;
-        background-color: #01969A;
-        background-image: linear-gradient(to right, #01969A, #50e2e7);
+        background-color: #007156;
+        background-image: linear-gradient(to right, #007156, #50e2e7);
         width: 190px;
         color: white;
         border: none;
@@ -96,7 +96,7 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
     }
 
     .health_row_col_card_right_footer_botton:hover {
-        background-image: linear-gradient(to right, #01969A, #3dafb3);
+        background-image: linear-gradient(to right, #007156, #3dafb3);
         transition: all 0.5s;
     }
 
@@ -108,8 +108,8 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
         line-height: 53px;
         background-color: white;
         width: 190px;
-        color: #01969A;
-        border: 2px solid #01969A;
+        color: #007156;
+        border: 2px solid #007156;
         border-radius: 30px;
         margin-left: 10%;
     }
@@ -231,7 +231,7 @@ if (isset($path_parts[1]) && $path_parts[1] !== 'tin-tuc-y-khoa') {
         font-size: 23px;
         font-weight: 700;
         text-transform: uppercase;
-        background-color: #01A64F;
+        background-color: #007156;
         padding: 10px 15px;
     }
     .view {

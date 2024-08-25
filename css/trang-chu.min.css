@@ -55,8 +55,8 @@
 .hr{
     height: 3px;
     width: 100%;
-    background-color: #01A64F; 
-    background-image: linear-gradient(to right, #01A64F , #6DEEAA);
+    background: linear-gradient(90deg, #218348 0%, #00ED89 100%);
+
     margin: 25px 0px 50px 0px;
 }
 
@@ -68,7 +68,7 @@
     font-size: 27px;
     line-height: 25px;
     font-weight: 700;
-    color: #01A64F;
+    color: #00615A;
     text-transform: uppercase;
 }
 
@@ -88,8 +88,8 @@
     font-weight: 700;
     text-transform: uppercase;
     line-height: 45px;
-    background-color: #01A64F; 
-    background-image: linear-gradient(to right, #01A64F , #6DEEAA);
+    background: linear-gradient(90deg, #218348 0%, #05a060 100%);
+
     width: 100%;
     color: white;
     border: none;
@@ -154,7 +154,7 @@
 .experienced_body_left_center_button{
     margin-top: 22px;
     
-    background-color: #01A64F;
+    background-color: #007156;
     color: white;
     font-size: 18px;
     font-weight: 700;
@@ -236,7 +236,7 @@
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #01A64F;
+    color: #007156;
     text-transform: uppercase;
 
 }
@@ -308,7 +308,7 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
-    background-color: #01A64F;
+    background-color: #007156;
     cursor: pointer;
     border: none;
     text-transform: uppercase;
@@ -549,11 +549,11 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 45px;
-    color: #01A64F;
+    color: #007156;
     text-transform: uppercase;
     border-bottom: 4px solid transparent;
-    border-color: #01A64F;
-    border-image: linear-gradient(to right, #01A64F, #6DEEAA);
+    border-color: #007156;
+    border-image: linear-gradient(to right, #007156, #6DEEAA);
     border-image-slice: 1
 }
 
@@ -561,11 +561,11 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 25px;
-    color: #01A64F;
+    color: #007156;
     text-transform: capitalize;
     border-bottom: 1px solid transparent;
-    border-color: #01A64F;
-    border-image: linear-gradient(to right, #01A64F, #6DEEAA);
+    border-color: #007156;
+    border-image: linear-gradient(to right, #007156, #6DEEAA);
     border-image-slice: 1;
     margin-top: 10px;
 }
@@ -576,7 +576,7 @@
     border-radius: 8px;
     width: 100%;
     min-height: 200px;
-    background-image: linear-gradient(to right, #01A64F, #6DEEAA);
+    background-image: linear-gradient(to right, #007156, #6DEEAA);
 }
 
 .health_row_col_box_title{
@@ -648,11 +648,11 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 35px;
-    color: #01A64F;
+    color: #007156;
     text-transform: uppercase;
     border-bottom: 3px solid transparent;
-    border-color: #01A64F;
-    border-image: linear-gradient(to right, #01A64F, #6DEEAA);
+    border-color: #007156;
+    border-image: linear-gradient(to right, #007156, #6DEEAA);
     margin-top: 10px;
     /* border-image-slice: 1; */
 }
@@ -667,8 +667,8 @@
     max-width: 158px !important;
     border-radius: 20px;
     border: 2px solid transparent;
-    border-color: #01A64F;
-    border-image: linear-gradient(to right, #01A64F, #6DEEAA);
+    border-color: #007156;
+    border-image: linear-gradient(to right, #007156, #6DEEAA);
     border-image-slice: 1;
 }
 
@@ -760,7 +760,7 @@
     margin-top: 20px;
 }
 .dominance_container_title{
-    color: #01A64F;
+    color: #007156;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
@@ -791,7 +791,7 @@
 }
 
 .space_container_title {
-    color: #01A64F;
+    color: #007156;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
@@ -858,7 +858,7 @@
 
 .procedure_container_bottom_card_body{
     box-shadow: 3px 3px 4px 0px #00000026;
-    border: 2px solid #01A64F;
+    border: 2px solid #007156;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -878,14 +878,14 @@
 }
 
 .procedure_container_bottom_card_body>div{
-    color: #01A64F;
+    color: #007156;
     font-size: 16px;
     font-weight: 700;
     padding-left: 10px;
 }
 
 .feedback_container_title{
-    color: #01A64F;
+    color: #007156;
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
@@ -893,7 +893,7 @@
 
 .feedback_container_row_card{
     margin-top: 10px;
-    border: 2px solid #01A64F;
+    border: 2px solid #007156;
     box-shadow: 4px 4px 4px 0px #00000040;
     border-radius: 10px;
     width: 100%;
@@ -991,14 +991,14 @@
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: #00D8D8;
+    background-color: #00EA88;
     margin: 0 5px;
     border-radius: 50%;
     cursor: pointer
 }
 
 .index-feedbacks .feedback-item.activeFeedback {
-    background-color: #01A64F;
+    background-color: #007156;
     width: 14px;
     height: 14px;
 }
